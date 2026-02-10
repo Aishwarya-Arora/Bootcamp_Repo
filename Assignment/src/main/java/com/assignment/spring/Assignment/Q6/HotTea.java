@@ -3,6 +3,7 @@ package com.assignment.spring.Assignment.Q6;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+//implementation of Tea method
 @Component
 public class HotTea implements Tea {
     @Override

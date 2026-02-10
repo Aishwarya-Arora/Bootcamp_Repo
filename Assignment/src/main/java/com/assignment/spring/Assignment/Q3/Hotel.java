@@ -5,9 +5,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Hotel {
+    //Autowired is used to inject the dependency inside the Hotel object
     @Autowired
     Cook cook;
     public void serveFood() {
-        cook.food();
+        cook.food(); //It will tell which object to call
     }
 }

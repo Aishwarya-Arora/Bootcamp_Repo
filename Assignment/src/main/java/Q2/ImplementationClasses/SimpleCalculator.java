@@ -2,6 +2,7 @@ package Q2.ImplementationClasses;
 
 import Q2.abstraction.Calculator;
 
+//implementing the Calculator interface inorder to show loose coupling
 public class SimpleCalculator implements Calculator {
 
     @Override

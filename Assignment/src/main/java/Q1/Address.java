@@ -1,5 +1,6 @@
 package Q1;
 
+//Address class is a independent class having getter and setters
 public  class Address {
     private int pincode;
     private String city;
